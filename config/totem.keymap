@@ -74,8 +74,8 @@
             >;
         };
 
-        Nums+Syms {
-            display-name = "Numbers+Symbols";
+        NumsSyms {
+            display-name = "Numbers and Symbols";
             bindings = <
            &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4      &kp N5         &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0
            &kp EXCL      &kp AT_SIGN    &kp HASH        &kp DOLLAR        &kp PERCENT    &kp CARET     &kp AMPS           &kp ASTERISK     &kp MINUS     &kp EQUAL
@@ -84,8 +84,8 @@
             >;
         };
 
-        Nav+Settings {
-            display-name = "Navigation+Settings";
+        NavSettings {
+            display-name = "Navigation and Settings";
             bindings = <
         &trans  &trans  &kp END  &trans        &trans      &trans    &trans          &trans        &trans     &trans
         &trans  &trans  &trans   &trans        &kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
