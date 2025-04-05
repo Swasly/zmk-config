@@ -52,7 +52,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
         };
 
         Return {
@@ -87,10 +87,10 @@
         NavSettings {
             display-name = "Navigation and Settings";
             bindings = <
-        &trans  &trans  &kp END  &trans        &trans      &trans    &trans          &trans        &trans     &trans
-        &trans  &trans  &trans   &trans        &kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans   &trans        &trans      &trans    &trans          &trans        &trans     &trans  &trans
-                        &trans   &kp LEFT_WIN  &trans      &trans    &trans          &trans
+        &trans  &trans     &kp END       &trans        &trans      &trans    &trans          &trans        &trans     &trans
+        &trans  &kp LCTRL  &kp LEFT_ALT  &kp DELETE    &kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans     &trans        &trans        &trans      &trans    &trans          &trans        &trans     &trans  &trans
+                           &trans        &kp LEFT_WIN  &trans      &trans    &trans          &trans
             >;
         };
     };
